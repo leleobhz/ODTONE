@@ -17,6 +17,8 @@
 #==============================================================================
 
 project odtone-mihf
+        : requirements
+                <toolset>gcc:<linkflags>"-lboost_program_options -lboost_system"
 	;
 
 exe odtone-mihf

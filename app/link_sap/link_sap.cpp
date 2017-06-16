@@ -64,7 +64,7 @@ link_sap::~link_sap()
 void link_sap::update(nic::interface* it)
 {
 	std::pair<nic::interface_map::iterator, bool> ifi;
-	std::auto_ptr<nic::interface> itc(it);
+	std::unique_ptr<nic::interface> itc(it);
 	bool update = false;
 
 	ifi = _ifmap.insert(*it);

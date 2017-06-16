@@ -17,6 +17,8 @@
 #==============================================================================
 
 project libodtone
+        : requirements
+                <toolset>gcc:<linkflags>"-lboost_program_options -lboost_thread -lboost_system"
 	;
 
 odtone.runtime-lib pthread  ;

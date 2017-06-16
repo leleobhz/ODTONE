@@ -26,7 +26,7 @@ project odtone
 	: requirements
 		<include>inc
 		<link>static
-		<toolset>gcc:<cxxflags>-std=c++0x
+		<toolset>gcc:<cxxflags>-std=c++11
 		<toolset>gcc-android:<runtime-link>static
 		<toolset>msvc:<define>BOOST_ALL_NO_LIB
 		<toolset>msvc:<define>_CRT_SECURE_NO_DEPRECATE

@@ -17,6 +17,8 @@
 #===============================================================================
 
 project mih_usr
+        : requirements
+                <toolset>gcc:<linkflags>"-lboost_program_options -lboost_system"
 	;
 
 exe mih_usr
