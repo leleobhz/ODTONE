@@ -50,9 +50,6 @@ lib odtone
 	  net/dns/resolver.cpp
 	  net/dns/message.cpp
 	  net/dns/utils.cpp
-	  /boost//system
-	  /boost//thread
-	  /boost//program_options
 	: <c++-template-depth>1024
 	  <define>BOOST_ENABLE_ASSERT_HANDLER
 	;

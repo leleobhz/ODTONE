@@ -47,7 +47,6 @@ exe odtone-mihf
 	  meta_message.cpp
 	  discover_service.cpp
 	  ../../lib/odtone//odtone
-	  /boost//program_options
 	;
 
 install install

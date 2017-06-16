@@ -22,7 +22,6 @@ project mih_usr
 exe mih_usr
 	: mih_usr.cpp
 	  ../../lib/odtone//odtone
-	  /boost//program_options
 	;
 
 install install
